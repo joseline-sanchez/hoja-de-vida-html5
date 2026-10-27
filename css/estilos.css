@@ -1,0 +1,150 @@
+body {
+    background-color: #eefaff;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #345a6e;
+}
+
+header {
+    background-color: #b9e6f5;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+header img {
+    background-color: white;
+    border: 3px solid #78c5e5;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+h1, h2 {
+    color: #276b91;
+}
+
+h3 {
+    color: #458eaf;
+}
+
+section, aside {
+    background-color: white;
+    border: 2px solid #a9dced;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+
+nav {
+    background-color:#d8f1fb;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #78c5e5;
+    color: white;
+    padding: 12px 18px;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+nav a:hover {
+    background-color: #276b91;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+th {
+    background-color: #b9e6f5;
+    color: #276b91;
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #78c5e5;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #a9dced;
+    color: #345a6e;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eefaff;
+}
+
+tbody tr:hover {
+    background-color: #d8f1fb;
+}
+
+
+.volver {
+    display: inline-block;
+    background-color: #78c5e5;
+    color: white;
+    padding: 12px 18px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.volver:hover {
+    background-color: #276b91;
+    color: white;
+}
+
+
+footer {
+    background-color: #b9e6f5;
+    text-align: center;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #276b91;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+    }
+
+    section {
+        overflow-x: auto;
+    }
+}
